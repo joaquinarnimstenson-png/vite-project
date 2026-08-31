@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form 8 - Food Order</title>
+        
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center;">Food Order</h1>
+        
+        </header>
+        <main>
+            <div style="display: flex;
+            justify-content: center;
+             align-items: center;"> 
+            <form>
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" id="lastname" placeholder="Enter your last name here" required minlength="3" maxlength="50">
+
+                <br><br>
+
+                <label for="firstname">First Name:</label>
+                <br>
+                <input type="text" id="firstname" placeholder="Enter your first name here" required minlength="3" maxlength="50">
+
+                
+                <br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <br>
+                <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
+
+                <br><br>
+
+                <label for=" deliveryaddress">Delivery Address:</label>
+                <br>
+                <input type="text" id="address" name="address" autocomplete="address" placeholder="Enter your Delivery Address" required>
+
+                <br><br>
+
+                <label for="Food">Select your food item:</label>
+                <br>
+                <select id="Food" name="Food" >
+                    <option value="">Select item</option>
+                    <optgroup label="Food Items">
+                        
+                        <option value="pizza">🍕Pizza</option>
+                        <option value="burger">🍔Burger</option>
+                        <option value="pasta">🍝Pasta</option>
+                        <option value="salad">🥗Salad</option>
+                        <option value="sushi">🍣Sushi</option>
+                        <option value="tacos">🌮Tacos</option>
+                        <option value="sandwich">🥪Sandwich</option>
+                        <option value="steak">🥩Steak</option>
+                    </optgroup>
+                    <optgroup label="Drinks">
+                        <option value="coffee">☕Coffee</option>
+                        <option value="tea">🍵Tea</option>
+                        <option value="juice">🧃Juice</option>
+                        <option value="soda">🥤Soda</option>
+                        <option value="water">💧Water</option>
+                    </optgroup>
+                </select>
+                <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" max="30">
+
+                <br><br>
+
+                <label for="extra">Extras</label>
+                <br>
+                <input type="checkbox" id="extra1" name="extra1" value="extra1">
+                <label for="extra1">Extra Cheese</label>
+                <br>
+                <input type="checkbox" id="extra2" name="extra2" value="extra2">
+                <label for="extra2">Fries</label>
+                <br>
+                <input type="checkbox" id="extra3" name="extra3" value="extra3">
+                <label for="extra3">Salad</label>
+                <br>
+                <input type="checkbox" id="extra4" name="extra4" value="extra4">
+                <label for="drinks">Drinks:</label>
+                <select id="drinks" name="drinks" >
+                    <option label="Select your drink" value="">Select your drink</option>
+                            <option value="coffee">☕Coffee</option>
+                            <option value="tea">🍵Tea</option>
+                            <option value="juice">🧃Juice</option>
+                            <option value="soda">🥤Soda</option>
+                            <option value="water">💧Water</option>
+                </select>
+                <input type="number" id="quantity" name="quantity" placeholder="Enter quantity"  min="1" max="30">
+                
+                <br><br>
+
+                <label for="specialinstructions/custommessage">Special Instructions/Custom Messages:</label>
+                <br>
+                <textarea id="specialinstructions" name="specialinstructions" placeholder="Enter any special instructions/custom messages for your order" rows="4" cols="50"></textarea>
+                <br><br>
+
+                <label for="payment_method">Payment Method:</label>
+                <br>
+                <select id="payment_method" name="payment_method" required>
+                    <option value="">Select your payment method</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="cash">Cash</option>
+                    <optgroup label="Digital Wallets">
+                        <option value="paypal">PayPal</option>
+                        <option value="venmo">Venmo</option>
+                        <option value="applepay">Apple Pay</option>
+                        <option value="googlepay">Google Pay</option>
+                    </optgroup>
+                </select>
+
+                <br><br>
+
+                <label for="Agreement">Notice:</label>
+                <br>
+                <input type="checkbox" id="Agreement" name="Agreement" required>
+                <label style="text-align: center;" for="Agreement">
+                    I agree to that any food items ordered will be prepared according to the selected options and I understand that all orders are final.
+                    <br>
+                    Any and all food that have been bought and picked up from this establishment will not be refunded or exchanged.
+                </label>
+
+                <br><br>
+
+                <button type="submit">Order</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <p style="text-align: center;">&copy; 2023 Food Order. All rights reserved.</p>
+    </footer>
+</html>
