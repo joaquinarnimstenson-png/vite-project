@@ -1,0 +1,12 @@
+.box {
+    width: 250px;
+    border: 5px solid black;
+}
+
+.box-a {
+    padding: 10px;
+}
+
+.box-b {
+    padding: 30px;
+}
