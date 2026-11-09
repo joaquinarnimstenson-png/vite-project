@@ -4,9 +4,11 @@
 }
 
 .box-a {
+    box-sizing: border-box;
     padding: 10px;
 }
 
 .box-b {
+    box-sizing: border-box;
     padding: 30px;
 }
