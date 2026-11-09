@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px;
+}
+
+.box{
+    display: grid;
+    font-size: 30px;
+    height:100px;
+    place-items: center;
+}
+
+.box:nth-child(1){
+    background-color: red;
+}
+
+.box:nth-child(2){
+    background-color: blue;
+}
+
+.box:nth-child(3){
+    background-color: lightblue;
+}
+
+.box:nth-child(4){
+    background-color: limegreen;
+}
+
+.box:nth-child(5){
+    background-color: green;
+}
+
+.box:nth-child(6){
+    background-color: purple;
+}
+
+.box:nth-child(7){
+    background-color: orange;
+}
+
+.box:nth-child(8){
+    background-color: yellow;
+}
+
+.box:nth-child(9){
+    background-color: pink;
+}
