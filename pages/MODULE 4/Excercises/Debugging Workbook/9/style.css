@@ -1,11 +1,11 @@
 .first {
     height: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: lightblue;
 }
 
 .second {
     height: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
     background-color: lightgreen;
 }
