@@ -1,8 +1,9 @@
 .profile-card {
+    box-sizing: border-box;
     width: 350px;
     padding: 30px;
     border: 5px solid black;
-    margin: 0;
+    margin: 20px;
 }
 
 .profile-card h2 {
@@ -11,8 +12,8 @@
 }
 
 .profile-card p {
-    padding: 20px;
-    margin-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .profile-card button {
