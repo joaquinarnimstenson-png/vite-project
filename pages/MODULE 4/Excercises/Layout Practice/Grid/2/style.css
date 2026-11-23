@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap:25px;
+    grid-template-colors: #ff0000 #0270f7 #07fd65;
+}
+
+
+.games{
+    display: grid;
+    font-size: 30px;
+    height:100px;
+    place-items: center;
+}
+
+.games:nth-child(1){
+    background-color: red;
+}
+
+.games:nth-child(2){
+    background-color: blue;
+}
+
+.games:nth-child(3){
+    background-color: lightblue;
+}
+
+.games:nth-child(4){
+    background-color: limegreen;
+}
+
+.games:nth-child(5){
+    background-color: green;
+}
+
+.games:nth-child(6){
+    background-color: purple;
+}
+
+.games:nth-child(7){
+    background-color: orange;
+}
+
+.games:nth-child(8){
+    background-color: yellow;
+}
+
+.games:nth-child(9){
+    background-color: pink;
+}
